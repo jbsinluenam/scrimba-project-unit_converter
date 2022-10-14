@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: black;
+}
+
+.container {
+  margin-top: 10vh;
+  font-family: "Inter", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  width: 550px;
+  color: white;
+  background: hsla(164, 86%, 16%, 1);
+  text-align: center;
+}
+
+.topbox {
+  background: hsla(160, 84%, 39%, 1);
+
+  height: 270px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 33px;
+}
+
+.input {
+  width: 80px;
+  font-size: 58px;
+  font-weight: 800;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0 19px;
+  margin-top: 30px;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: hsla(164, 86%, 16%, 1);
+  color: white;
+  cursor: pointer;
+}
+
+.lowerbox {
+  margin-top: 30px;
+  display: grid;
+  font-family: "Inter", sans-serif;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.lowerbox h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: hsla(164, 86%, 16%, 1);
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.lowerbox p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.unit {
+  margin-bottom: 25px;
+  background: hsla(161, 94%, 30%, 1);
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
